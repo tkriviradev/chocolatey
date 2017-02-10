@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>Outlookcaldav</id>
+    <version>2.15.1</version>
+    <owners>Tsvyatko Kriviradev</owners>
+    <title>OutlookCalDavSynchronizer (Install)</title>
+    <authors>Gerhard Zehetbauer Alexander Nimmervoll</authors>
+    <projectUrl>https://caldavsynchronizer.org/</projectUrl>
+    <iconUrl>http://cache.filehippo.com/img/ex/7565__outlookcaldavsyncronizer_icon_converted.png</iconUrl>
+    <copyright>2017 Gerhard Zehetbauer and Alexander Nimmervoll</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/agpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>outlookcaldavsynchronizer caldav synchronizer outlook admin</tags>
+	<projectSourceUrl>https://github.com/aluxnimm/outlookcaldavsynchronizer/releases/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/aluxnimm/outlookcaldavsynchronizer/releases/</packageSourceUrl>
+	<docsUrl>https://github.com/aluxnimm/outlookcaldavsynchronizer</docsUrl>
+	<bugTrackerUrl>https://github.com/aluxnimm/outlookcaldavsynchronizer/issues</bugTrackerUrl>
+    <summary>This project was initially developed as a master thesis project at the University of Applied Sciences Technikum Wien, Software Engineering Degree program. Outlook CalDav Synchronizer is Free and Open-Source Software (FOSS), still you can support the project by donating on Sourceforge or directly at PayPal</summary>
+	<releaseNotes>https://github.com/aluxnimm/outlookcaldavsynchronizer/releases</releaseNotes>
+    <description>Outlook Plugin, which synchronizes events, tasks and contacts between Outlook and Google, SOGo, Horde or any other CalDAV or CardDAV server. Supported Outlook versions are 2016, 2013, 2010 and 2007.</description>
+  </metadata>
+</package>
