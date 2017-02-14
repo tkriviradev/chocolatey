@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>gotoassist-customer-attended</id>
+    <version>3.1</version>
+    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <owners>Tsvyatko Kriviradev</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>GoToAssist-Customer-Attended (Install)</title>
+    <authors>Citrix Systems, Inc.</authors>
+    <projectUrl>https://www.fastsupport.com/</projectUrl>
+    <iconUrl>http://cdn.apk-cloud.com/detail/image/com.citrix.g2arscustomer-w130.png</iconUrl>
+    <copyright>© 1997-2017 LogMeIn, Inc. All rights reserved.</copyright>
+    
+    <projectSourceUrl>https://www.fastsupport.com/</projectSourceUrl>
+    <docsUrl>https://www.fastsupport.com/files/instructions_single_customer_attended_app.pdf</docsUrl>
+    <tags>gotoassist-customer-attended admin SPACE_SEPARATED</tags>
+    <summary>
+	Provide support when it's most needed
+	Solve issues faster and make customers happier with GoToAssist Remote Support.
+
+	Two-Way Screen Share
+	Both your customers and your technicians can share their screen and give keyboard and mouse control.
+
+	Remote Diagnostics
+	Easily access your customer’s system information, including hardware and software configuration.
+
+	File Transfer
+	Securely send and receive files in a live or unattended support session, which is useful for applying patches, updates and more.
+
+	Multi-Monitor Navigation
+	Easily switch or scroll between all of your customer’s monitors.
+
+	Multi-Session Support
+	Host up to 8 sessions simultaneously per technician.
+
+	Annotation Tools
+	Draw, highlight and point to items on the customer’s screen.
+	</summary>
+    <description>Provide support when it's most needed
+	Solve issues faster and make customers happier with GoToAssist Remote Support.</description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
