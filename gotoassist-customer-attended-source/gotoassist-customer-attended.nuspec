@@ -31,6 +31,8 @@
 	Annotation Tools
 	Draw, highlight and point to items on the customer’s screen.</summary>
 	<docsUrl>https://www.fastsupport.com/files/instructions_single_customer_attended_app.pdf</docsUrl>
+	<releaseNotes>https://blog.gotoassist.com/release-notes-gotoassist-remote-support</releaseNotes>
+	<licenseUrl>https://www.citrixonline.com/mm/g2aChannelAgreePF.tmpl</licenseUrl>
     <packageSourceUrl>https://github.com/tkriviradev/chocolatey/tree/master/gotoassist-customer-attended-source</packageSourceUrl>
 	<description>Provide support when it's most needed Solve issues faster and make customers happier with GoToAssist Remote Support.</description>
   </metadata>
