@@ -13,6 +13,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>outlookcaldavsynchronizer caldav synchronizer outlook admin</tags>
 	<projectSourceUrl>https://github.com/aluxnimm/outlookcaldavsynchronizer/releases/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/tkriviradev/chocolatey/tree/master/OutlookCalDavSynchronizer-source/OutlookCalDav</packageSourceUrl>
 	<bugTrackerUrl>https://github.com/aluxnimm/outlookcaldavsynchronizer/issues</bugTrackerUrl>
     <summary>This project was initially developed as a master thesis project at the University of Applied Sciences Technikum Wien, Software Engineering Degree program. Outlook CalDav Synchronizer is Free and Open-Source Software (FOSS), still you can support the project by donating on Sourceforge or directly at PayPal</summary>
 	<releaseNotes>https://github.com/aluxnimm/outlookcaldavsynchronizer/releases</releaseNotes>
