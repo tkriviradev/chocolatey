@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>Outlookcaldav</id>
-    <version>2.15.1</version>
+    <version>2.16.0</version>
     <owners>Tsvyatko Kriviradev</owners>
     <title>OutlookCalDavSynchronizer (Install)</title>
     <authors>Gerhard Zehetbauer Alexander Nimmervoll</authors>
@@ -13,8 +13,6 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>outlookcaldavsynchronizer caldav synchronizer outlook admin</tags>
 	<projectSourceUrl>https://github.com/aluxnimm/outlookcaldavsynchronizer/releases/</projectSourceUrl>
-    <packageSourceUrl>https://github.com/aluxnimm/outlookcaldavsynchronizer/releases/</packageSourceUrl>
-	<docsUrl>https://github.com/aluxnimm/outlookcaldavsynchronizer</docsUrl>
 	<bugTrackerUrl>https://github.com/aluxnimm/outlookcaldavsynchronizer/issues</bugTrackerUrl>
     <summary>This project was initially developed as a master thesis project at the University of Applied Sciences Technikum Wien, Software Engineering Degree program. Outlook CalDav Synchronizer is Free and Open-Source Software (FOSS), still you can support the project by donating on Sourceforge or directly at PayPal</summary>
 	<releaseNotes>https://github.com/aluxnimm/outlookcaldavsynchronizer/releases</releaseNotes>

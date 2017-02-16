@@ -1,16 +1,16 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName  = 'outlook-caldav-synchronizer'
+$packageName  = 'outlookcaldav'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 #Based on NO DETECTION IN PRO
 $packageArgs = @{
   packageName   = $packageName
-  softwareName  = 'OutlookCalDav*'
+  softwareName  = 'OutlookCalDavSynchronizer*'
   fileType      = 'zip'
   silentArgs    = "/qn" # NSIS
   validExitCodes= @(0) #please insert other valid exit codes here
-  url           = "https://github.com/aluxnimm/outlookcaldavsynchronizer/releases/download/v2.15.1/OutlookCalDavSynchronizer-2.15.1.zip"  #download URL, HTTPS preferrred
+  url           = "https://github.com/aluxnimm/outlookcaldavsynchronizer/releases/download/v2.16.0/OutlookCalDavSynchronizer-2.16.0.zip"  #download URL, HTTPS preferrred
   destination   = $toolsDir
   file			= "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\\CalDavSynchronizer.Setup.msi"
 }
