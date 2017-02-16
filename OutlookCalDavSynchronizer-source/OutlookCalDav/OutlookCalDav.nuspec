@@ -7,7 +7,7 @@
     <title>OutlookCalDavSynchronizer (Install)</title>
     <authors>Gerhard Zehetbauer Alexander Nimmervoll</authors>
     <projectUrl>https://caldavsynchronizer.org/</projectUrl>
-    <iconUrl>http://cache.filehippo.com/img/ex/7565__outlookcaldavsyncronizer_icon_converted.png</iconUrl>
+    <iconUrl>https://chocolatey.org/content/packageimages/outlook-caldav-synchronizer.2.15.1.png</iconUrl>
     <copyright>2017 Gerhard Zehetbauer and Alexander Nimmervoll</copyright>
     <licenseUrl>https://www.gnu.org/licenses/agpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
