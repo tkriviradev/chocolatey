@@ -6,19 +6,19 @@
 
 #if ($CheckFile) {continue} else {exit}
 
-Get-AppxPackage -allusers *3dbuilder* | Remove-AppxPackage
-Get-AppxPackage -allusers *officehub* | Remove-AppxPackage
-Get-AppxPackage -allusers *skypeapp* | Remove-AppxPackage
-Get-AppxPackage -allusers *getstarted* | Remove-AppxPackage
-Get-AppxPackage -allusers *zunemusic* | Remove-AppxPackage
-Get-AppxPackage -allusers *zunevideo* | Remove-AppxPackage
-Get-AppxPackage -allusers *solitairecollection* | Remove-AppxPackage
-Get-AppxPackage -allusers *onenote* | Remove-AppxPackage
-Get-AppxPackage -allusers *XboxApp* | Remove-AppxPackage
-Get-AppxPackage -allusers *OneConnect* | Remove-AppxPackage
-Get-AppxPackage -allusers *XboxGame* | Remove-AppxPackage
-Get-AppxPackage -allusers *XboxIdentity* | Remove-AppxPackage
-Get-AppxPackage -allusers *Office.sway* | Remove-AppxPackage
+Get-AppxPackage *3dbuilder* | Remove-AppxPackage
+Get-AppxPackage *officehub* | Remove-AppxPackage
+Get-AppxPackage *skypeapp* | Remove-AppxPackage
+Get-AppxPackage *getstarted* | Remove-AppxPackage
+Get-AppxPackage *zunemusic* | Remove-AppxPackage
+Get-AppxPackage *zunevideo* | Remove-AppxPackage
+Get-AppxPackage *solitairecollection* | Remove-AppxPackage
+Get-AppxPackage *onenote* | Remove-AppxPackage
+Get-AppxPackage *XboxApp* | Remove-AppxPackage
+Get-AppxPackage *OneConnect* | Remove-AppxPackage
+Get-AppxPackage *XboxGame* | Remove-AppxPackage
+Get-AppxPackage *XboxIdentity* | Remove-AppxPackage
+Get-AppxPackage *Office.sway* | Remove-AppxPackage
 
 
 # Prevents "Suggested Applications" returning
